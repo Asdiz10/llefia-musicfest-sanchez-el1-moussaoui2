@@ -11,7 +11,7 @@
         <nav>
             <div>
                 <h1>Llefià Music Fest</h1>
-                <h2>Descubre el cartel y la experiencia del festival.<h2>
+                <h2>Solicita información o entradas<h2>
             </div>
 
             <div>
@@ -34,7 +34,55 @@
     </header>
 
     <main>
+        <div class="content1">
+            <section><strong>Entradas y contacto</strong></section>
+                <p>Completa este formulario de ejemplo. En el examen se te pedirá algo muy similar en otra página.</p>
+                   <form action="#" method="post">
+                    <label for="nom">Nombre Completo:</label>
+                        <input type="text" id="nom" name="nom">
 
+                        <br>
+
+                    <label for="Correo">Correo electrónico:</label>
+                        <input type="email" id="nom" name="nom">
+
+                        <br>
+
+                        <label for="Tipo de Entrada">Tipo de Entrada:</label>
+                            <select id="" name="pais">
+                            <option value="">-- opciones --</option>
+                            <option value="dia">Pase 1 dia</option>
+                            <option value="dias">Pase 3 dias</option>
+                            <option value="VIP">Entrada VIP</option>
+                            </select>
+                        <br>
+
+                        <p>¿Quieres recibir el boletín del festival?</p>
+                        <label>
+                            <input type="radio" name="boton" value="">
+                            Sí, quiero novedades y playlists
+                            </label>
+                            <br>
+                            <label>
+                            <input type="radio" name="boton" value="">
+                            No, prefiero no recibir correos
+                            </label>
+
+                            <label for="missatge">Missatge:</label><br>
+                            <p>Mensaje:</p>
+                                <textarea placeholder="Dudas sobre horarios, accesos, grupos…" name="missatge" rows="10" cols="50"></textarea>
+
+                                <br>
+
+                            <label>
+                                <input type="checkbox" name="interessos[]" value="informatica">
+                                Acepto la política de privacidad.
+                                </label>
+                                <br>
+                                <button type="submit" class="boton-enviar">Enviar solicitud</button>
+
+                   </form>
+        </div>
     </main>
 
     <footer>
