@@ -72,12 +72,8 @@ section{
     padding: 30px;
       
     
-}
 
-.content-cartel{
-    
 }
-
 
 footer{
     margin-top: 360px;
@@ -96,3 +92,7 @@ h3{
 
 
 
+table{
+    color: black;
+    border: 2px solid black;
+}
